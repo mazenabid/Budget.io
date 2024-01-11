@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Financial Institution</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add a New Financial Institution</h2>
+        <form action="/add-institution" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="institutionName">Institution Name:</label>
+                <input type="text" id="institutionName" name="institutionName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="institutionUrl">Institution URL:</label>
+                <input type="url" id="institutionUrl" name="institutionUrl" required>
+            </div>
+
+            <div class="form-group">
+                <label for="institutionLogo">Institution Logo (optional):</label>
+                <input type="file" id="institutionLogo" name="institutionLogo" accept="image/*">
+            </div>
+
+            <button type="submit" class="submit-btn">Add Institution</button>
+        </form>
+    </div>
+</body>
+</html>

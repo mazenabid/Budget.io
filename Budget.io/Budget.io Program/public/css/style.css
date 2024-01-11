@@ -1,0 +1,21 @@
+.bank-logo {
+    max-width: 100px; /* Adjust width as needed */
+    height: auto;
+    margin: 0 15px 15px; /* Spacing around images */
+}
+
+.bank-link {
+    display: flex; /* Flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.container {
+    margin-top: 20px; /* Adjust this value as needed for all containers */
+    text-align: center; /* Center aligns the contents */
+}
+
+.no-bullets {
+    list-style-type: none;
+}
