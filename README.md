@@ -1,8 +1,8 @@
 # Budget.io
 
 ## Team Members
-Mazen Abid
-Froillo Raquinio 
+* Mazen Abid
+* Froillo Raquinio 
 
 ## Introduction
 Budget.io is a web application designed to make budgeting effortless. It helps manage finances by automating income, budgets, and transactions. With the vision of minimizing user effort, it addresses the challenges of managing finances in an era of rising expenses and proliferating digital financial services.
